@@ -7,13 +7,13 @@
     "./minimal/*": "./minimal/*",
     ".": {
       "require": "./index.min.js",
-      "import": "./index.min.mjs"
+      "import": "./index.min.mjs",
+      "types": "./index.d.ts",
     }
   },
   "sideEffects": [
     "index.iife.min.js"
   ],
-  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/annexare/Countries.git"
